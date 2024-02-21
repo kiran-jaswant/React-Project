@@ -2,6 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
+import Home from './views/Home/Home';
+import Flowers from './views/Flowers/Flowers';
+import Decorative from './views/Decorative/Decorative';
+import Gardening from './views/Gardening/Gardening';
+import About from './views/About/About';
+import Contact from './views/Contact/Contact';
+import Login from './views/Login/Login';
+import Register from './views/Register/Register';
+
 
 const router = createBrowserRouter([
   {
@@ -10,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/flowers',
-    element:<Floral/>
+    element:<Flowers/>
   },
   {
     path:'/decorative',
