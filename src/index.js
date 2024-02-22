@@ -20,15 +20,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
  const router = createBrowserRouter([
     {
         path:"/",
-        element:<h1>Home</h1>
+        element:<Home />
     },
     {
         path:"/about",
-        element:<h1>About</h1>
+        element:<About />
     },
     {
         path:"/contact",
-        element:<h1>Contact</h1>
+        element:<Contact />
     },
     {
       path:'/flowers',
@@ -55,56 +55,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       element:<Register/>
     },
     {
+      path:'/Acessories',
+      element:<Acessories />
+  
+    },
+    {
       path:"*",
       element:<h1>Not Found</h1>
     }
+    
  ]);
 
- root.render(<RouterProvider router={router}/>
-
-const router = createBrowserRouter([
-  {
-    path:'/',
-    element:<Home/>
-  },
-  {
-    path:'/flowers',
-    element:<Flowers/>
-  },
-  {
-    path:'/decorative',
-    element:<Decorative/>
-  },
-  {
-    path:'/gardening',
-    element:<Gardening/>
-  },
-  {
-    path:'/about',
-    element:<About/>
-  },
-  {
-    path:'/contact',
-    element:<Contact/>
-  },
-  {
-    path:'/login',
-    element:<Login/>
-  },
-  {
-    path:'/register',
-    element:<Register/>
-  },
-  {
-    path:'/Acessories',
-    element:<Acessories />
-
-  }
-
-]);
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={router}/>)
 
 
