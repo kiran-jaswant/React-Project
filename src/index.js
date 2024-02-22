@@ -10,7 +10,8 @@ import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Login from './views/Login/Login';
 import Register from './views/Register/Register';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 const router = createBrowserRouter([
   {
@@ -51,29 +52,5 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={router}/>);
-
-
-=======
-import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
- const router = createBrowserRouter([
-    {
-        path:"/",
-        element:<h1>Home</h1>
-    },
-    {
-        path:"/about",
-        element:<h1>About</h1>
-    },
-    {
-        path:"/contact",
-        element:<h1>Contact</h1>
-    }
- ]);
-
- root.render(<RouterProvider router={router}/>);
 
 
