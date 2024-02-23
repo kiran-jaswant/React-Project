@@ -1,8 +1,14 @@
 import React from 'react'
+import "./Card.css"
 
-function Card() {
+function Card({title, thumbnail,description,author,date,content}) {
   return (
-    <div>Card</div>
+    <div className='blog-card'>
+      <img src={thumbnail} alt={title}/>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      
+       </div>
   )
 }
 
