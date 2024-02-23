@@ -7,7 +7,6 @@ import Sanseveria from './images/Home/sanseveria-trifasciata.webp';
 import SyngoniumButterfly from './images/Home/syngonium-butterfly.webp';
 import Dracaena from './images/Home/dracaena-mahatma.jpg';
 
-
 const SHOW_PLANTS = [
     {
         id: 1,
@@ -17,7 +16,6 @@ const SHOW_PLANTS = [
         description : "Peace Lily has a foliage that screams sophistication. The beautiful creamy-white flowers complimented by the long dark-green leaves - bring positive energy & peaceful touch to the room. Not just décor, this NASA approved air purifier is well known to help you get peaceful sleep if placed in your bedroom. It cleans indoor air, increases the humidity level, and absorbs airborne allergens all this helps you breathe better, and aids fight insomnia. Be it your office desk or bedside table or corner of your living room, the white-green combination has the ability to make any place delightful & clean.",
         price : '320.00',
     },
-     
     {
         id: 2,
         name : 'Syngonium Butterfly',
@@ -74,7 +72,7 @@ const SHOW_PLANTS = [
         description : "Dracaena Mahatma is simply an ideal houseplant. It has got everything you need from A to Z, when it comes to persona, structure & caring. Just to list down things, this plant is hardy, drought tolerant, cleans airborne pollutants, does not require to be fed or watered frequently, does exceedingly well in the low light indoor environment and the caring part is fairly easy. You simply don't have to worry about anything at all. Just bring home this beauty and you can start enjoying its lovely foliage of slender green leaves with pink margins. And as it matures the plant takes an upright form while the leaves brighten up further becoming the central attraction of your garden.",
         price : '355.00',
     }
-]
+];
 
 
 export {SHOW_PLANTS};

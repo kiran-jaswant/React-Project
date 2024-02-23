@@ -74,7 +74,7 @@ const FLOWER_PLANTS = [
         description : "Parijat tree is usually 10-15 feet tall and is also known as Coral Jasmine Tree. Some people also refer it to as Kalpa Vriksh or Kalpa Taru-- wish-granting tree. During the Samudra Manthan in Satyug which took place between the Devas and the Asuras to obtain Amrit, the tree emerged as one of the many Ratnas.",
         price : '499.00',
     }
-]
+];
 
 
 export {FLOWER_PLANTS};

@@ -1,45 +1,47 @@
-import React, { useState , useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
-import './Plant.css';
 import { FLOWER_PLANTS } from '../../config/FlowerPlantsConfig';
 import { SHOW_PLANTS } from '../../config/ShowPlantsConfig';
+import './Plant.css'
+import Navbar from '../../components/Navbar/Navbar';
 
 function Plant() {
+    const {id} = useParams();
+    const [plant, setPlant] = useState({});
 
-  const {id} = useParams();
-  const [plant, setPlant] = useState({});
-
-  useEffect(() => {
-    if(id >=1 && id < 9){
-      SHOW_PLANTS.forEach((plant) => {
-        if(plant.id === id)
-          setPlant(plant);
-      })
-    }
-    else if ( id >= 9 && id < 17){
-      FLOWER_PLANTS.forEach((plant) => {
-        if(plant.id === id)
-          setPlant(plant);
-      })
-    }
-  })
+    useEffect(() => {
+        if(id >=1  && id < 9){
+            SHOW_PLANTS.forEach((plant)=>{
+                if(plant.id == id)
+                    setPlant(plant);
+            })
+        }
+        else if (id >= 9 && id < 17){
+            FLOWER_PLANTS.forEach((plant)=>{
+                if(plant.id == id)
+                    setPlant(plant);
+            })
+        }
+            
+        },[id]);
 
   return (
-    <div className='plant-details container'>
-      
-        <h1 className='details-name '>{plant.name}</h1>
-        <div className='details-section'>
-          <img src={`${plant.src}`} alt={plant.name} className='details-img'/>
-          <div>
-            <p> Name : {plant.name}</p>
-            <p> Botanical name : {plant.botName}</p>
-            <p> Price : {plant.price}</p>
-          </div>
+    <div>
+        <Navbar/>
+        <div className='container plant-details'> 
+            <div className='details-container'>
+                <img src={`${plant.src}`} alt={plant.name} className='plant-img'/>
+                <div className='details-div'>
+                    <p className='details-name'>Name : {plant.name}</p>
+                    <p className='details-bot-name'>Botanical Name : {plant.botName}</p>
+                    <p className='details-price'>Price : {plant.price}</p>
+                </div>
+            </div>
+            <p className='plant-description'>{plant.description}</p>
+            
         </div>
-          <p className='long-desc'>{plant.description}</p>
-          
     </div>
   )
 }
 
-export default Plant;
+export default Plant
