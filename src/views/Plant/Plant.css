@@ -1,0 +1,42 @@
+
+.plant-details{
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.details-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.details-div{
+    border-left: 2px solid green;
+    padding: 30px;
+    margin: 0 40px;
+}
+.details-name{
+    font-size: 35px;
+    font-weight: 600;
+    color: #6e0d25;
+
+}
+.details-bot-name{
+    font-size: 25px;
+    color: #000000ce;
+    font-weight: 500;
+}
+.details-price{
+    font-size: 40px;
+    font-weight: 700;
+    color: #6e0d25;
+}
+.plant-img{
+    width: 500px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+}
+.plant-description{
+    margin-top: 30px;
+    padding: 0 30px;
+    font-size: 20px;
+}
