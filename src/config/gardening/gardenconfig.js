@@ -19,5 +19,7 @@ const services=[
         img:img4,
         service:"Terrace Gardens"
     }
-]
+];
+
+
 export {services};

@@ -5,9 +5,9 @@ import logo from "./logo.png";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light my-nav ">
       <img src={logo} className='logo'></img>
-      <Link className="navbar-brand" to="/"><div className='heading'>Green Heaven</div></Link>
+      <Link className="navbar-brand" to="/"><span className='heading'>Green Heaven</span></Link>
 
     <div className='Menu-container'>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@ function Navbar() {
             <Link className="nav-link menu" to="/contact">Contact</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link menu" to="/accessories">Accessories</Link>
+            <Link className="nav-link menu" to="/Accessories">Accessories</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link menu" to="/gardening">Gardening Services</Link>

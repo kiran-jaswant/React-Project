@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Acessories() {
+function Accessories() {
   return (
     <div>
       pots and fertilizers
@@ -8,4 +8,4 @@ function Acessories() {
   )
 }
 
-export default Acessories;
+export default Accessories;

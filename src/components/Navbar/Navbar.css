@@ -1,13 +1,15 @@
 .nav{
     background-color: #00cc00;
 }
+.my-nav{
+    width: 100%;
+}
 .logo{
     height: 150px;
     object-fit: cover;
     padding:0%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 .heading {
   font-family: 'open sans', sans-serif; 
   font-size: 2.5rem;
@@ -29,7 +31,7 @@
     color: white;
     border: 2px solid #80002a;
     border-radius: 5px;
-    margin:10px;
+    margin:5px;
     padding:10px 20px;
     width:130px;
     cursor: pointer;
@@ -45,8 +47,10 @@
 
 }
 .LR-sec{
+    display: flex;
+    justify-content: flex-end;
     position:relative;
-    left:530px;
+    left:360px;
     bottom:25px;
 }
 #navbarNav{

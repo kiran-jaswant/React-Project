@@ -11,7 +11,7 @@ import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Login from './views/Login/Login';
 import Register from './views/Register/Register';
-import Acessories from './views/Acessories/Acessories';
+import Accessories from './views/Acessories/Acessories';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
@@ -55,8 +55,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       element:<Register/>
     },
     {
-      path:'/Acessories',
-      element:<Acessories />
+      path:'/Accessories',
+      element:<Accessories />
   
     },
     {
