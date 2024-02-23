@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Card.css';
@@ -14,6 +15,19 @@ function Card({id, name, src, botName, description, price}) {
         <Link to={`/plant/${id}`} className='link-btn'> Detail... </Link> 
       </button>
     </div>
+=======
+import React from 'react'
+import "./Card.css"
+
+function Card({title, thumbnail,description,author,date,content}) {
+  return (
+    <div className='blog-card'>
+      <img src={thumbnail} alt={title}/>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      
+       </div>
+>>>>>>> 258eaea9bfff6f47c364b36b014c4b988afa19d2
   )
 }
 
