@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin  } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
 import logo from "./logo.png";
 
@@ -34,13 +36,13 @@ function Footer() {
           <h5 className='section-title'> Follow Us</h5>
           <div className='section-div'>
 
-            <Link className='nav-link menu footer-anchor'> LinkedIn </Link>
+            <Link className='nav-link menu footer-anchor'> <FontAwesomeIcon icon={faLinkedin} /> LinkedIn </Link>
 
-            <Link className='nav-link menu footer-anchor'> Instagram </Link>
+            <Link className='nav-link menu footer-anchor'> <FontAwesomeIcon icon={faInstagram} /> Instagram </Link>
 
-            <Link className='nav-link menu footer-anchor'> Facebook </Link>
+            <Link className='nav-link menu footer-anchor'> <FontAwesomeIcon icon={faFacebook} /> Facebook </Link>
 
-            <Link className='nav-link menu footer-anchor'> Twitter </Link>
+            <Link className='nav-link menu footer-anchor'> <FontAwesomeIcon icon={faTwitter} /> Twitter </Link>
 
           </div>
         </div>
