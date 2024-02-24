@@ -1,0 +1,67 @@
+.nav{
+    background-color: #00cc00;
+}
+.my-nav{
+    width: 100%;
+}
+.logo{
+    height: 150px;
+    object-fit: cover;
+    padding:0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.heading {
+  font-family: 'open sans', sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 700; 
+  color: #00b300; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  margin-bottom: 20px;
+  border-bottom: 2px solid #80002a;
+}
+.Menu-container{
+    position: relative;
+    left:px;
+}
+.button{
+    text-decoration: none;
+    background-color: #00cc00;
+    color: white;
+    border: 2px solid #80002a;
+    border-radius: 5px;
+    margin:5px;
+    padding:10px 20px;
+    width:130px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #029702; 
+}
+.text{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+.LR-sec{
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+    left:360px;
+    bottom:25px;
+}
+#navbarNav{
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.menu{
+    text-decoration: none;
+    transition: text-decoration 0.5s ease;
+}
+.menu:hover{
+    text-decoration: underline;
+}
