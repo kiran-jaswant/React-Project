@@ -11,7 +11,7 @@ import Image7 from "./pothos.jpg";
 import Image8 from "./cast.jpg";
 import Image9 from "./nephthytis.jpg";
 import Image10 from "./neoregelia.jpg";
-import Image11 from "./amazon.jpg";
+
 
 
 
