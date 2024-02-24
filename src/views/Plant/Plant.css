@@ -26,14 +26,23 @@
     font-weight: 500;
 }
 .details-price{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
     color: #6e0d25;
 }
 .plant-img{
     width: 500px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.418);
     border-radius: 10px;
+}
+.buy-now-btn{
+    border: none;
+    padding: 5px 30px;
+    color: #00b300;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+
 }
 .plant-description{
     margin-top: 30px;

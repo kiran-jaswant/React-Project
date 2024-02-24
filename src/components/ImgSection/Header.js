@@ -2,16 +2,16 @@ import React from 'react';
 import CarouselImg1 from './background.webp';
 import CarouselImg2 from './background2.webp';
 import CarouselImg3 from './background3.webp';
-import './ImgSlider.css';
+import './ Header.css';
 
 
 
-function ImgSlider() {
+function Header() {
   return (
     <div>
-      Img ImgSlider
+      
     </div>
   )
 }
 
-export default ImgSlider
+export default Header
