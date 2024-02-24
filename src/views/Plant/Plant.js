@@ -5,6 +5,7 @@ import { FLOWER_PLANTS } from '../../config/FlowerPlantsConfig';
 import { SHOW_PLANTS } from '../../config/ShowPlantsConfig';
 import './Plant.css'
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer'
 
 function Plant() {
     const {id} = useParams();
@@ -50,6 +51,7 @@ function Plant() {
             <p className='plant-description'>{plant.description}</p>
             <p> <Link to='/cart' className='buy-now-btn'> View Cart </Link></p>
         </div>
+        <Footer/>
     </div>
   )
 }

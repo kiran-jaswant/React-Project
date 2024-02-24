@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer'
 import { FLOWER_PLANTS } from '../../config/FlowerPlantsConfig';
 import { SHOW_PLANTS } from '../../config/ShowPlantsConfig';
 import './Cart.css';
@@ -33,7 +34,12 @@ function Cart() {
       }
     }
 
-    console.log(plantObjects);
+    
+      let totalPrice = 0;
+      plantObjects.forEach((plant)=>{
+        totalPrice += (parseInt(plant.price)) ;
+        parseInt(totalPrice);
+      })
 
 
   return (
@@ -50,7 +56,14 @@ function Cart() {
           })
         }
         </div>  
-    </div>
+
+        </div>
+        <div className='paymen-details'>
+          <p>Total is : 
+            <span>{totalPrice}</span>
+          </p>
+        </div>
+        <Footer/>
     </div>
     
   )

@@ -25,9 +25,10 @@ function Footer() {
         <div className='footer-sections'>
           <h5 className='section-title'> Main Menu</h5>
           <div className='section-div'>
-            <Link className='nav-link menu footer-anchor'> Home </Link>
-            <Link className='nav-link menu footer-anchor'> Login </Link>
-            <Link className='nav-link menu footer-anchor'> Blog </Link>
+            <Link className='nav-link menu footer-anchor' to='/'> Home </Link>
+            <Link className='nav-link menu footer-anchor' to='/login'> Login </Link>
+            <Link className='nav-link menu footer-anchor' to='/cart'> Cart </Link>
+
             <Link className='nav-link menu footer-anchor'> About us </Link>
             <Link className='nav-link menu footer-anchor'> Contact us </Link>
           </div>
@@ -52,7 +53,7 @@ function Footer() {
 
             <Link to='https://maps.app.goo.gl/N3ngnED1vBDYVvj19' target='black' className='nav-link menu footer-anchor' >B.D. College of Engineering</Link>
 
-            <Link to='mailto:ashishgore393@gmail.com' className='nav-link men footer-anchoru'>ashishgore393@gmail.com</Link>
+            <Link to='mailto:ashishgore393@gmail.com' className='nav-link menu footer-anchor'>ashishgore393@gmail.com</Link>
             <Link to='tel:+918975004427' className='nav-link menu footer-anchor'> +91-8975004427</Link>
 
           </div>
