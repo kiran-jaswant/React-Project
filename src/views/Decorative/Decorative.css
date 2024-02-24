@@ -5,9 +5,9 @@
   }
   
    .head{
-   width: 100%;
+    width: 100%;
     height: 55vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+
    background-size: cover;
     font-family: 'Poppins', sans-serif;
 
@@ -27,22 +27,12 @@
     color: #ffffff;
     text-align: center;
   }
-  .explore-more-btn{
-   margin-left: 450px;
-   background-color: #80c106ad ;
-   color: white;
-   font-weight: bold;
-   border-radius: 5px;
-   height: 40px;
-  width: 250px;
-  }
-  .explore-more-btn:hover{
-    background-color: brown;
-  }
+
   .subheading{
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: brown;
     
    
   }
@@ -74,7 +64,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
+  .card:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 10%;
   
+    box-shadow: 0px 0px 10px 0px #004d00;
+  }
   .card img {
     max-width: 100%;
     border-radius: 5px;
@@ -96,7 +92,7 @@
    
     display: block;
     padding: 10px;
-    background-color: #8f2407;
+    background-color: green;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -106,7 +102,7 @@
   }
   
   .card button:hover {
-    background-color: #da461d;
+    background-color: #8f2407;
   }
   .subpart{
     padding-bottom: 20px;
@@ -116,9 +112,10 @@
   }
   .img-size{
     
-    height: 300px;
-    width: 350px;
+    height: 200px;
+    width: 250px;
     border-radius: 10px;
+  
 
   }
   .service-card{
@@ -143,26 +140,13 @@
     width: 300px;
     
   }
-  .learn-more-btn{
-    margin-top:20px ;
-    width: 300px;
-    height: 50px;
-    background-color: #ffffff89;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-  }
-  .learn-more-btn:hover{
-    background-color: #a1fb94;
-    color:#ccc;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
+
  
   .last-container{
      background-image: linear-gradient(rgba(204, 227, 244, 0.5),rgba(21, 244, 207, 0.2));
      width: 100%;
      height: 500px;
-     color: white;
+     color: green;
      text-align: center ; 
      padding: 20px;
 
@@ -176,6 +160,7 @@
   .service-img{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
   }
   .last-container h2{
     margin-top: 50px;
