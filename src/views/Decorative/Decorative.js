@@ -58,6 +58,27 @@ function Decorative(){
             <h2>Price:₹299/piece</h2>
             <button>Buy Now</button>
           </div>
+          <div className="card">
+            <img src={Image3} alt="arboricola" />
+            <h2>Arboricola plant</h2>
+            <p> This plant is Schefflera Arboricola.This is a braided trunk Arboricola can also have a single trunk and it is very often to grown in bush form</p>
+            <h2>Price:₹299/piece</h2>
+            <button>Buy Now</button>
+          </div>
+          <div className="card">
+            <img src={Image3} alt="arboricola" />
+            <h2>Arboricola plant</h2>
+            <p> This plant is Schefflera Arboricola.This is a braided trunk Arboricola can also have a single trunk and it is very often to grown in bush form</p>
+            <h2>Price:₹299/piece</h2>
+            <button>Buy Now</button>
+          </div>
+          <div className="card">
+            <img src={Image3} alt="arboricola" />
+            <h2>Arboricola plant</h2>
+            <p> This plant is Schefflera Arboricola.This is a braided trunk Arboricola can also have a single trunk and it is very often to grown in bush form</p>
+            <h2>Price:₹299/piece</h2>
+            <button>Buy Now</button>
+          </div>
 
         </div> <hr />
         <div className='subpart'>
