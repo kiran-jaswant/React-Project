@@ -4,13 +4,13 @@ import "./Specialcard.css";
 function SpecialCard(props) {
     const { img, head, info } = props;
     return (
-        <div className='card col-4 s-card m-5'>
+        <div className=' col-6 s-card '>
 
             <div className='d-flex'>
                 <img src={img} className='s-img'></img>
                 <div>
                     <h3 className='s-head'>{head}</h3>
-                    <p className='s-height'>{info}</p>
+                    <p className='s-info'>{info}</p>
                 </div>
 
             </div>

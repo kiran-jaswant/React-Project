@@ -1,14 +1,15 @@
 import React from 'react';
-import "./service.css"
+import "./service.css";
+import {Link} from "react-router-dom";
 
 function ServiceCard(props) {
- const{img,service}=props;
+ const{id,img,service}=props;
     return (
         <>
         
-            <div className='card m-2 my-card'>
+            <div className=' m-2 my-card'>
                 <img src={img} className='ser-img'></img>
-                <h4 className='text-center head'>{service}</h4>
+                <h4 className='text-center service-card-heading '><Link className="LINK" to={`/services/${id}`}>{service}</Link></h4>
             </div>
 
         </>

@@ -1,4 +1,20 @@
+
 .contain{
     display: flex;
    
+}
+.service-head{
+    color: #80002a;
+  font-weight: bold;
+  text-align: center;
+  height: 65px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  margin: 25px;
+
+}
+.information-block{
+    text-align: center;
 }

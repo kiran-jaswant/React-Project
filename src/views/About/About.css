@@ -1,74 +1,87 @@
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 450px;
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
 
 }
-.head{
-    color:#80002a;
-    font-weight: bold;
-    text-align: center;
-    background-color:#4ce24c ;
-    height: 65px;
-    padding:15px;}
-    .about-head{
-        color: #80002a;
-    font-weight: bold;
-    text-align: center;
-    height: 65px;
-    padding: 15px;
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
 
-
-    }
-    .about-head::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px; 
-        background-color: #80002a; 
-        transform: scaleX(0); 
-        transform-origin: bottom left;
-        transition: transform 0.3s ease-in-out; 
-    }
-    
-    .about-head:hover::after {
-        transform: scaleX(1); 
-    }
-  .sec{
-    background-color: #f0f0f5;
-    height: 580px;
-    width:100%;
-    padding: 0 0 20px 20px;
-    margin: 0%;
-    
-  } 
-  .detail{
-    text-align: justify;
-    margin:25px 35px;
-    color:#a20439;
-    font-size: 16px;
-  }
-  .img1{
-    position: relative;
-    left:22px;
+.heads {
+  color: #80002a;
+  font-weight: bold;
+  text-align: center;
+  background-color: #5ceb5c;
+  height: 65px;
+  padding: 15px;
 }
-  .lora-1 {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight:600px ;
-    font-style: normal;
-  }
-  .dm-serif{
-    font-family: "DM Serif Display", serif;
-    font-weight: 650;
-    font-style: normal;
-  }
-  .height{
-    height: 580px;
-  }
+
+.about-head {
+  color: #80002a;
+  font-weight: bold;
+  text-align: center;
+  height: 65px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+
+
+}
+
+.about-head::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #80002a;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-head:hover::after {
+  transform: scaleX(1);
+}
+
+.sec {
+  background-color: #f0f0f5;
+  height: 580px;
+  width: 100%;
+  padding: 0 0 20px 20px;
+  margin: 0%;
+
+}
+
+.detail {
+  text-align: justify;
+  margin: 25px 35px;
+  color: #a20439;
+  font-size: 16px;
+}
+
+.img1 {
+  position: relative;
+  left: 22px;
+}
+
+.lora-1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+
+.dm-serif {
+  font-family: "DM Serif Display", serif;
+  font-weight: 650;
+  font-style: normal;
+}
+
+.height {
+  height: 580px;
+}
+.description{
+  color: #555;
+}

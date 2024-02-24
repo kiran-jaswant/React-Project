@@ -60,6 +60,10 @@ const router = createBrowserRouter([
     element: <Plant />
   },
   {
+    path:'/services/:id',
+    element:<h1>ALL SERVICES</h1>
+  },
+  {
     path : '*',
     element: <h1> The Page is not Found ! </h1>
   }

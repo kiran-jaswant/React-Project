@@ -4,14 +4,16 @@ import mainimg from './logo.png';
 import './About.css';
 import img1 from './about1.jpg';
 import img2 from './about2.jpg';
-import {special} from "./../../config/about/aboutconfig";
+import {special,features} from "./../../config/about/aboutconfig";
 import SpecialCard from '../../components/about/SpecialCard';
+import FeatureCard from '../../components/about/FeatureCard';
+import Footer from "../../components/Footer/Footer"
 
 function About() {
   return (
     <>
       <Navbar />
-      <h3 className='head'>Bringing Nature's Beauty to Your Doorstep: Your Trusted Online Plant Nursery</h3>
+      <h3 className='heads'>Bringing Nature's Beauty to Your Doorstep: Your Trusted Online Plant Nursery</h3>
       <img src={mainimg} className='img'></img>
       <div className='row sec'>
         <div className='col-6'>
@@ -40,15 +42,30 @@ function About() {
           {
             special.map((specialobj,i)=>{
               const{img,head,info}=specialobj;
-              return(<SpecialCard img={img} head={head} info={info} />)
+              return(<SpecialCard img={img} head={head} info={info} key={i} />)
 
             }
 
             )
           }
           </div>
+          <div>
+            <h2 className='text-center dm-serif my-5 about-head'>Why Green Heaven?</h2>
+            <h4 className='description text-center'>Select us for our commitment to quality, reliability, and customer satisfaction.</h4>
+            <div className='d-flex flex-wrap justify-content-center mx-5'>
+            {
+              features.map((feature,i)=>{
+                const{s,icon}=feature;
+                return(<FeatureCard s={s} icon={icon} key={i}/>)
+              }
+
+              )
+            }
+            </div>
+          </div>
 
         </div>
+        <Footer />
     </>
   )
 }
