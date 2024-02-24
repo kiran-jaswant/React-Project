@@ -7,7 +7,7 @@
  .head{
  width: 100%;
   height: 55vh;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+  background-image:inear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
  background-size: cover;
   font-family: 'Poppins', sans-serif;
 
@@ -69,24 +69,18 @@ width: 250px;
   height: 500px;
   margin: 20px;
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border: 1px solid green;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  border: 2px solid;
 }
 .card:hover{
   transition: 0.3s;
   transform: scale(1.1);
-  border-radius: 10%;
-  box-shadow: 10px 10px 5px gray;
-  border: 2px solid ;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #004d00;
 }
-.desc{
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #fff;
-}
+
 
 .card img {
   max-width: 100%;
@@ -94,20 +88,23 @@ width: 250px;
 }
 .card h2 {
   font-size: 1.5em;
-  margin-top: 10px;
+  margin-top: 2px;
+
+
+
 }
 
 .card p {
   font-size: 1em;
   color: #555;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .card button {
-  margin-bottom: -2px;
+  margin-bottom: 1px;
   display: block;
   padding: 10px;
-  background-color: #8f2407;
+  background-color:green;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -120,6 +117,7 @@ width: 250px;
 .card button:hover {
   border-radius: 15px;
   font-size: 20px;
+  background-color: #8f2407;
 }
 .subpart{
   padding-bottom: 20px;
@@ -129,8 +127,8 @@ width: 250px;
 }
 .img-size{
   
-  height: 300px;
-  width: 350px;
+  height: 250px;
+  width: 300px;
   border-radius: 10px;
 
 }
@@ -156,16 +154,24 @@ width: 250px;
   width: 300px;
   
 }
+.img-size:hover{
+
+  transition: 0.3s;
+  transform: scale(1.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #004d00;
+
+}
 .learn-more-btn{
   margin-top:20px ;
   width: 300px;
   height: 50px;
-  background-color: #ffffff89;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
+  background-color: #555;
 }
 .learn-more-btn:hover{
-  background-color: #a1fb94;
+  background-color:#8f2407;
   color:#ccc;
   border-radius: 5px;
   transition: 0.5s;
@@ -178,20 +184,36 @@ width: 250px;
    color: white;
    text-align: center ; 
    padding: 20px;
+   color: green;
+   margin-top: 20px;
 
 }
 .sub-last-container{
   padding: 20px;
-
   display: flex;
   justify-content: space-evenly;
 }
 .service-img{
   height: 200px;
   width: 200px;
+  border-radius: 50%;
+  margin-top: -10px;
+}
+.service-img:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 0px #004d00;
 }
 .last-container h2{
-  margin-top: 50px;
+  margin-top:50px;
   font-weight: bold;
+  color: green;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+  .last-container h3{
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
