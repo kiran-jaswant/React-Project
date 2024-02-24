@@ -14,6 +14,7 @@ import Contact from './views/Contact/Contact';
 import Login from './views/Login/Login';
 import Register from './views/Register/Register';
 import Plant from './views/Plant/Plant.js';
+import Cart from './views/Cart/Cart.js';
 import Accessories from './views/Acessories/Acessories';
 
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path:'/register',
     element:<Register/>
+  },
+  {
+    path:'/cart',
+    element:<Cart/>
   },
   {
     path : '/plant/:id',

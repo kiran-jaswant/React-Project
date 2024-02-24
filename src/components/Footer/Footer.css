@@ -1,0 +1,42 @@
+.footer-container{
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    border-top: 2px solid brown;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.footer-img{
+    height: 80px;
+}
+.footer-sections{
+    flex: 1;
+    padding: 20px;
+}
+.section-div{
+    margin: 15px 20px;
+}
+.section-title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #00b300;
+    font-weight: 600;
+}
+.footer-shop-title{
+    font-size: 30px;
+    color: #00b300;
+    font-weight: 600;
+}
+.footer-anchor{
+    text-decoration: none;
+    margin: 3px 0;
+    cursor: pointer;
+    color: black;
+}
+
+.footer-anchor:hover{
+    margin-left: 15px;
+    transition: 0.5s;
+}
