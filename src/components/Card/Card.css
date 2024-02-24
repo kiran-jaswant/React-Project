@@ -1,0 +1,7 @@
+.blog-card{
+    border: 1px solid black;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}

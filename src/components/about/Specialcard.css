@@ -1,0 +1,13 @@
+.s-img{
+    height: 300px;
+    width:300px;
+}
+.s-card{
+    background-color: #ccffcc;
+    height: 250px;
+    width:fit-content;
+    border-radius: 10px;
+}
+s-head{
+    padding: 10px;
+}
