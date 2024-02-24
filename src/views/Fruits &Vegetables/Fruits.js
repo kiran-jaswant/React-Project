@@ -16,7 +16,6 @@ import Image10 from "./potato-img.jpg";
 
 
 
-
 function Fruits() {
   return (
 

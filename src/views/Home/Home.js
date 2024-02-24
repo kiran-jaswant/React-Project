@@ -10,7 +10,7 @@ function Home() {
     <div>
       <Navbar />
       <div className='containers'>
-        <h1 className='container-title'>Show Plants</h1>
+        <h1 classNagme='container-title'>Show Plants</h1>
         <ShowPlantsCardsContainer />
       </div>
       <hr />
